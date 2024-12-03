@@ -11,13 +11,14 @@ body {
 header {
   background-color: #013026;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   padding: 1rem;
 }
 .logo a {
   display: block;
-  width: 150px; 
+  width: 450px; 
   height: auto;
   background-image: url('logo.jpg');
   background-size: contain;
@@ -28,6 +29,7 @@ nav {
   background-color: #197B4A;
   display: flex;
   justify-content: center;
+  flex-grow: 0;
   width:100%;
 }
 nav ul {
