@@ -27,7 +27,7 @@ header {
   display: block;
   width: 100%; 
   max-width: 450px; 
-  height: 450px; /
+  height: 450px; 
   background-image: url('logo.jpg');
   background-size: contain;
   background-repeat: no-repeat;
