@@ -23,11 +23,12 @@ header {
   align-items: center; 
   margin-bottom: 1rem; 
 }
+
 .logo a {
   display: block;
   width: 100%; 
   max-width: 450px; 
-  height: 450px; 
+  height: 150px; 
   background-image: url('logo.jpg');
   background-size: contain;
   background-repeat: no-repeat;
