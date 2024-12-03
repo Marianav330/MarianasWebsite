@@ -17,6 +17,7 @@ nav {
   background-color: #197B4A;
   display: flex;
   justify-content: center;
+  width:100%;
 }
 nav ul {
   display: flex;
