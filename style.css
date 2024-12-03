@@ -10,9 +10,20 @@ body {
 
 header {
   background-color: #013026;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 1rem;
 }
-
+.logo a {
+  display: block;
+  width: 150px; 
+  height: auto;
+  background-image: url('logo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-indent: -9999px; 
+}
 nav {
   background-color: #197B4A;
   display: flex;
@@ -27,7 +38,7 @@ nav ul {
 }
 
 nav li {
-  list-style:none;
+  margin-right: 1.5rem;
 }
 
 nav a {
