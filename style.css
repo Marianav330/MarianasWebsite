@@ -117,6 +117,7 @@ footer {
 .card {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none; 
 }
 .card:hover {
     transform: translateY(-5px);
@@ -126,7 +127,17 @@ footer {
     text-decoration: none;
     color: inherit; 
 }
-.card-img-top {
-    max-width: 100px;
+.card-img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: contain; 
+    margin-top: 20px;
+}
+.card-body {
     margin-top: 10px;
+    text-align: center; 
+}
+.card-title {
+    font-size: 1rem;
+    color: #333;
 }
