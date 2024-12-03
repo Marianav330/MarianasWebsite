@@ -113,3 +113,20 @@ footer {
   text-align: center;
   font-size: 0.9rem;
 }
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+.card-link {
+    text-decoration: none;
+    color: inherit; 
+}
+.card-img-top {
+    max-width: 100px;
+    margin-top: 10px;
+}
