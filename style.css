@@ -19,21 +19,21 @@ header {
 .top-row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
-  align-items: center; 
-  padding-bottom: 1rem; 
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0; 
 }
 
 .logo a {
   display: block;
-  width: 100%; 
-  max-width: 450px; 
-  height: 150px; 
+  width: 100%;
+  max-width: 450px;
+  height: 150px;
   background-image: url('logo.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-  text-indent: -9999px; 
-  text-decoration: none; 
+  text-indent: -9999px;
+  text-decoration: none;
   color: inherit;
 }
 
@@ -43,7 +43,7 @@ nav {
   justify-content: center;
   align-items: center;
   height: 50px; 
-  width:100%;
+  width: 100%;
 }
 
 nav ul {
