@@ -418,28 +418,28 @@ form button:hover {
   flex: 1; 
   text-align: center; 
   padding: 20px;
-  border: 2px solid #007bff; 
+  border: 2px solid #013026; 
   border-radius: 8px; 
-  background-color: #f8f9fa;
+  background-color: #D9D9D9;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .link-container a {
   text-decoration: none; 
-  color: #333; 
+  color: #2D322C; 
 }
 
 .link-container h3 {
   font-size: 1.5rem; 
   margin-bottom: 10px;
-  color: #007bff;
+  color: #2D322C;
 }
 
 .link-container p {
   font-size: 1rem;
   margin: 0;
-  color: #555;
+  color: #2D322C;
 }
 
 .link-container:hover {
