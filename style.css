@@ -26,19 +26,10 @@ header {
   margin-bottom: 1rem;
 }
 
-.logo a {
-  display: block;
-  width: 100%;
-  max-width: 450px;
-  height: 150px;
-  background-image: url('logo.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  text-indent: -9999px;
-  text-decoration: none;
-  color: inherit;
+.logo {
+    position: relative;
+    left: 20px;
 }
-
 nav {
   background-color: #197B4A;
   display: flex;
