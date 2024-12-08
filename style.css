@@ -337,3 +337,9 @@ main {
     transform: rotate(360deg);
   }
 }
+
+.work-experience-container {
+  padding: 40px 20px;
+  background-color: #2D322C; 
+  text-align: center;
+}
