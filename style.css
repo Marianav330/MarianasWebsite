@@ -338,14 +338,7 @@ main {
   justify-content: center; 
 }
 
-.custom-separator {
-  border: none;            
-  height: 2px;              
-  background-color: #FFCC81; 
-  width: 80%;              
-  margin: 20px auto;       
-  opacity: 0.8;           
-}
+
 
 /* email form styling */
 #contact {
@@ -445,4 +438,12 @@ form button:hover {
 .link-container:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+}
+.custom-separator {
+  border: none;            
+  height: 2px;              
+  background-color: #FFCC81; 
+  width: 80%;              
+  margin: 20px auto;       
+  opacity: 0.8;           
 }
