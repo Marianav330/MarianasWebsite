@@ -13,9 +13,9 @@ header {
   flex-direction: column;
 }
 .header-title {
-    font-size: 3rem; 
+    font-size: 4rem; 
     position: relative;
-    left: -10px; 
+    left: -30px; 
     margin: 0; 
 }
 .header-content {
