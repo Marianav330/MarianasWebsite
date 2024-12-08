@@ -36,7 +36,7 @@ header {
   top: 7px;
 }
 
-
+/* navigation bar styling*/
 nav {
   background-color: #197B4A;
   display: flex;
@@ -108,7 +108,7 @@ main {
 
 
 
-
+/* link styling containers for linkedin ect */
 
 .linkcard {
   display: flex;
@@ -141,7 +141,7 @@ main {
 
 
 
-
+/* slider container styling for classes */
 
 .slider-container {
   display: flex;
@@ -250,7 +250,7 @@ main {
 }
 
 
-
+/* styling for about me on index.html */
 
 .about-container {
   display: flex;
@@ -283,7 +283,7 @@ main {
 }
 
 
-
+/* coming soon animation and container */
 .coming-soon-container {
   display: flex;
   flex-direction: column;
@@ -324,6 +324,7 @@ main {
   }
 }
 
+/* custom styling for my work section */
 .work-experience-container {
   padding: 40px 20px;
   background-color: #2D322C; 
@@ -346,7 +347,7 @@ main {
   opacity: 0.8;           
 }
 
-
+/* email form styling */
 #contact {
   text-align: center;
   margin: 2em 0;
@@ -381,7 +382,7 @@ form button:hover {
   background-color: #0056b3;
 }
 
-
+/* footer styling */
 
 .footer-container {
   display: flex;
@@ -401,4 +402,47 @@ form button:hover {
 
 .footer-content a:hover {
   color: #FFCC81;
+}
+
+
+
+/* index.html containers that link to portfolio and contact html pages */
+.link-containers {
+  display: flex;
+  justify-content: space-between; 
+  gap: 20px; 
+  padding: 20px;
+}
+
+.link-container {
+  flex: 1; 
+  text-align: center; 
+  padding: 20px;
+  border: 2px solid #007bff; 
+  border-radius: 8px; 
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.link-container a {
+  text-decoration: none; 
+  color: #333; 
+}
+
+.link-container h3 {
+  font-size: 1.5rem; 
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.link-container p {
+  font-size: 1rem;
+  margin: 0;
+  color: #555;
+}
+
+.link-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
 }
