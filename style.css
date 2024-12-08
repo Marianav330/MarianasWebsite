@@ -125,27 +125,31 @@ main {
 
 
 .linkcard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    box-shadow: none; 
-    border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
 }
-.card-img {
-    width: 150px; 
-    height: 150px;
-    object-fit: contain; 
+
+.linkcard-img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
 }
-.card-link {
-    text-decoration: none;
-    color: inherit; 
+
+.linkcard-link {
+  text-decoration: none;
+  color: inherit;
 }
-p {
-    margin: 0;
-    font-size: 1rem;
-    color: #333;
+
+.linkcard p {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
 }
+
 
 
 
@@ -156,16 +160,15 @@ p {
 .slider-container {
   display: flex;
   overflow-x: auto;
-  scroll-snap-type: x mandatory; 
+  scroll-snap-type: x mandatory;
   gap: 20px;
   padding: 20px;
   background-color: #2D322C;
 }
 
-
-.card {
-  flex: 0 0 300px; 
-  scroll-snap-align: center; 
+.slider-card {
+  flex: 0 0 300px;
+  scroll-snap-align: center;
   background: #013026;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -174,27 +177,24 @@ p {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-
-.card:hover {
-  transform: scale(1.05); 
+.slider-card:hover {
+  transform: scale(1.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-
-.card-content h2 {
+.slider-card-content h2 {
   font-size: 1.5rem;
   color: #D9D9D9;
   margin-bottom: 10px;
 }
 
-.card-content p {
+.slider-card-content p {
   font-size: 1rem;
   color: #FFCC81;
 }
 
-
 .slider-container::-webkit-scrollbar {
-  height: 8px; 
+  height: 8px;
 }
 
 .slider-container::-webkit-scrollbar-thumb {
@@ -205,6 +205,9 @@ p {
 .slider-container::-webkit-scrollbar-thumb:hover {
   background-color: #555;
 }
+
+
+
 
 .center-header {
   text-align: center;
