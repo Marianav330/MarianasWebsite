@@ -350,3 +350,12 @@ main {
   gap: 20px; 
   justify-content: center; 
 }
+
+.custom-separator {
+  border: none;            
+  height: 2px;              
+  background-color: #FFCC81; 
+  width: 80%;              
+  margin: 20px auto;       
+  opacity: 0.8;           
+}
