@@ -60,7 +60,22 @@
             </div>
         </div>
     </div>
+    
+    <hr class="custom-separator">
+    
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      (function() {
+    emailjs.init('service_ei7hi0h'); 
+  })();
 
+  const form = document.getElementById('contactForm');
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    emailjs.sendForm('your_service_id', 'your_template_id', this)
+      .then(() => alert('Message sent!'), () => alert('Failed to send message.'));
+  });
+</script>
 
 
 
