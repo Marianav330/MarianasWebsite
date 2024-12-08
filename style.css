@@ -12,7 +12,12 @@ header {
   display: flex;
   flex-direction: column;
 }
-
+.header-title {
+    font-size: 3rem; 
+    position: relative;
+    left: -10px; 
+    margin: 0; 
+}
 .header-content {
   display: flex;
   flex-direction: row;
