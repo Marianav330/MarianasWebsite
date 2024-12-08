@@ -342,4 +342,5 @@ main {
   padding: 40px 20px;
   background-color: #2D322C; 
   text-align: center;
+  flex-direction: column;
 }
