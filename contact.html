@@ -64,19 +64,24 @@
     <hr class="custom-separator">
     
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-    <script>
-      (function() {
-    emailjs.init('service_ei7hi0h'); 
-  })();
+    
 
-  const form = document.getElementById('contactForm');
-  form.addEventListener('submit', function(e) {
-    e.preventDefault();
-    emailjs.sendForm('your_service_id', 'your_template_id', this)
-      .then(() => alert('Message sent!'), () => alert('Failed to send message.'));
-  });
-</script>
-
+    
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name" placeholder="Your name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="user_email" placeholder="Your email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="user_message" placeholder="Your message" required></textarea>
+    
+    <button type="submit">Send</button>
+  </form>
+</section>
 
 
     
@@ -86,7 +91,27 @@
             <a href="https://msu.joinhandshake.com/profiles/42026834" target="_blank" class="text-white">Handshake</a>
       </div>
   </footer>
- 
+ <script>
+    document.addEventListener("DOMContentLoaded", function () {
+     
+      emailjs.init("TXs4kds2ycyQwjVhu"); 
+
+      
+      document.getElementById("contact-form").addEventListener("submit", function (event) {
+        event.preventDefault(); 
+        
+       
+        emailjs.sendForm("service_ei7hi0h", "template_1oqw9np", this)
+          .then(function () {
+            alert("Message sent successfully!");
+          })
+          .catch(function (error) {
+            console.error("Failed to send message:", error);
+            alert("Oops! Something went wrong.");
+          });
+      });
+    });
+  </script>
 </body>
 
 </html>
