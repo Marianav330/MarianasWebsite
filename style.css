@@ -262,3 +262,36 @@ main {
   font-size: 2rem; 
   margin-top: 20px; 
 }
+
+
+
+
+.about-container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px;
+  gap: 20px;
+}
+
+.about-text {
+  flex: 1; 
+  text-align: left;
+  font-size: 1.1rem; 
+  line-height: 1.6; 
+}
+
+.about-image {
+  flex: 1; 
+  display: flex;
+  justify-content: center; 
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
