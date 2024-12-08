@@ -447,3 +447,11 @@ form button:hover {
   margin: 20px auto;       
   opacity: 0.8;           
 }
+.custom-separator-two {
+  border: none;            
+  height: 2px;              
+  background-color: #FFCC81; 
+  width: 80%;              
+  margin: 20px auto;       
+  opacity: 0.8;           
+}
