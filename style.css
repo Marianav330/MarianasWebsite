@@ -471,9 +471,10 @@ hr.custom-separator {
     padding: 10px;
   }
   .logo {
+    width:100px;
+    height:auto;
     left: 15px;
-    width: 50%;
-    height:50%;
+
   }
 
   .header-title {
