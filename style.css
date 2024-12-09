@@ -480,7 +480,7 @@ hr.custom-separator {
   }
  
   body {
-    font-size: 14px; 
+    font-size: 11px; 
   }
  
   .about-text {
@@ -531,7 +531,7 @@ hr.custom-separator {
   }
 
   .link-containers {
-    flex-direction: row;
+    flex-direction: column;
     gap: 15px;
     padding: 10px;
   }
