@@ -459,8 +459,9 @@ hr.custom-separator {
 }
 
   /* css media queries */
+/* smaller devices like phones */
 @media screen and (max-width: 600px) {
-
+ 
   .header-content {
     flex-direction: column;
     text-align: center;
@@ -468,34 +469,60 @@ hr.custom-separator {
   }
 
   .header-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     left: 0;
     margin-top: 10px;
   }
-
-  .logo {
-    position: static;
-    margin: 0 auto 10px;
+ 
+  body {
+    font-size: 14px; 
+  }
+ 
+  .about-text {
+    font-size: 0.9rem; 
+    line-height: 1.5; 
   }
 
+  .card-content h2 {
+    font-size: 1.2rem; 
+  }
+
+  .card-content p {
+    font-size: 0.8rem;  
+
+ 
   nav ul {
-    align-items: center;
     flex-direction: row;
+    align-items: center;
   }
 
   nav li {
     margin: 10px 0;
   }
 
+  nav a {
+    font-size: 0.9rem; 
+  }
+
+ 
   form {
     width: 90%;
     max-width: 100%;
     padding: 0 15px;
   }
 
+  form input, form textarea {
+    font-size: 14px; 
+  }
+
+ 
   .linkcard-img {
     width: 100px;
     height: 100px;
+  }
+
+  .linkcard p {
+    font-size: 0.8rem; 
   }
 
   .link-containers {
@@ -507,8 +534,16 @@ hr.custom-separator {
   .link-container {
     width: 100%;
   }
-}
 
+  .link-container h3 {
+    font-size: 1.2rem; 
+  }
+
+  .link-container p {
+    font-size: 0.9rem;  
+  }
+}
+/* medium devices like tablets */
 @media screen and (min-width: 601px) and (max-width: 992px) {
 
   .header-title {
