@@ -540,9 +540,7 @@ hr.custom-separator {
     padding: 10px;
   }
 
-  .link-container {
-    width: 100%;
-  }
+
 
   .link-container h3 {
     font-size: 1.2rem; 
@@ -550,6 +548,15 @@ hr.custom-separator {
 
   .link-container p {
     font-size: 0.9rem;  
+  }
+}
+
+  .link-container {
+    max-width: calc(50% - 20px); 
+  }
+
+  .card {
+    flex: 0 1 calc(50% - 20px); 
   }
 }
 /* medium devices like tablets */
@@ -591,4 +598,12 @@ hr.custom-separator {
   .slider-card {
     flex: 0 0 250px;
   }
+  .link-container {
+    max-width: calc(50% - 20px); 
+  }
+
+  .card {
+    flex: 0 1 calc(50% - 20px);
+  }
+}
 }
