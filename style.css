@@ -551,13 +551,14 @@ hr.custom-separator {
   }
 }
 
-  .link-container {
-    max-width: calc(50% - 20px); 
+ .link-container {
+    flex: 0 1 100%;
   }
 
   .card {
-    flex: 0 1 calc(50% - 20px); 
+    flex: 0 1 100%;
   }
+
 }
 /* medium devices like tablets */
 @media screen and (min-width: 601px) and (max-width: 992px) {
