@@ -456,3 +456,94 @@ hr.custom-separator {
   opacity: 0.8;           
   display: block;          
 }
+
+  /* css media queries */
+@media screen and (max-width: 600px) {
+
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .header-title {
+    font-size: 3rem;
+    left: 0;
+    margin-top: 10px;
+  }
+
+  .logo {
+    position: static;
+    margin: 0 auto 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  form {
+    width: 90%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .linkcard-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .link-containers {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .link-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+
+  .header-title {
+    font-size: 4rem;
+    left: -20px;
+  }
+
+  .logo {
+    left: 15px;
+  }
+
+  nav li {
+    margin-right: 1rem;
+  }
+
+
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text, .about-image {
+    width: 100%;
+  }
+
+  .about-image img {
+    max-width: 300px;
+  }
+
+ 
+  .slider-container {
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .slider-card {
+    flex: 0 0 250px;
+  }
+}
