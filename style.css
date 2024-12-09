@@ -406,9 +406,11 @@ form button:hover {
 /* index.html containers that link to portfolio and contact html pages */
 .link-containers {
   display: flex;
-  justify-content: space-between; 
-  gap: 20px; 
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  gap: 20px;
   padding: 20px;
+  width: 100%; 
 }
 
 .link-container {
