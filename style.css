@@ -484,6 +484,10 @@ hr.custom-separator {
     left: 0;
     margin-top: 10px;
   }
+  main {
+  padding: 1rem;
+  flex: 1;
+  }
  
   body {
     font-size: 15px; 
